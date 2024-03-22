@@ -1,0 +1,20 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "tailwind-watch": "npx tailwindcss -o ./src/tailwind.css -i ./src/input.css --watch"
+  },
+  "author": "Nodirbek Raajabov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
